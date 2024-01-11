@@ -1,0 +1,12 @@
+{
+    "providerUrl": "https://bsc-mainnet-archive.allthatnode.com/MUtndDx0sj1fH3vv4oQuvOU46KB3LWG3",
+    "wallet": {
+        "walletPhrase": "rotonda"
+    },
+    "tokens": [
+        {
+            "symbol": "USDC",
+            "address": "0x"
+        }
+    ]
+}

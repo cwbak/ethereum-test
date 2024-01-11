@@ -1,0 +1,17 @@
+{
+    "name": "burrito-test-apps",
+    "private": true,
+    "workspaces": [
+        "src/packages/*",
+        "src/apps/*"
+    ],
+    "scripts": {
+        "build": "yarn lerna run build",
+        "clean": "yarn lerna run clean",
+        "ce.start": "lerna exec --scope @burritowallet-test/client-eth -- yarn start",
+        "fe.start": "lerna exec --scope @burritowallet-test/faucet-eth -- yarn start"
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    }
+}

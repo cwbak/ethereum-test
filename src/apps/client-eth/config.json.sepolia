@@ -1,0 +1,12 @@
+{
+    "providerUrl": "https://blissful-maximum-putty.ethereum-sepolia.quiknode.pro/c8f3412af2a0441740dd4ce52130406928519a5c/",
+    "wallet": {
+        "walletPhrase": "rotonda"
+    },
+    "tokens": [
+        {
+            "symbol": "STK",
+            "address": "0x7ad0e7d70c0f6812424003712edc26a253fd9e2a"
+        }
+    ]
+}

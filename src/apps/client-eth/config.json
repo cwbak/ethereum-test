@@ -1,0 +1,12 @@
+{
+    "providerUrl": "https://weathered-sparkling-morning.bsc.quiknode.pro/9f890eebf226414b12403852adc4c5517f98d369/",
+    "wallet": {
+        "walletPhrase": "rotonda"
+    },
+    "tokens": [
+        {
+            "symbol": "USDC",
+            "address": "0x"
+        }
+    ]
+}
