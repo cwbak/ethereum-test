@@ -11,5 +11,6 @@ main().catch((error) => {
   process.exitCode = 1;
 });
 
-
-// Sepolia Deployment: 0x7ad0e7d70c0f6812424003712edc26a253fd9e2a (owner: 0x1B43C8A517c7957caF7DD02963653dA6Df8b6f10)
+// PK=0x214d7aeb917409a215cd0590853925b5ced9bdf9d846fff6d26a650da550c013 npx hardhat run scripts/deploySampleToken.ts --network eth_sepolia
+// Sepolia Deployments
+//   - 0xb45efaea9bf5bf90fdd2b239d6f529f390e5b0ea

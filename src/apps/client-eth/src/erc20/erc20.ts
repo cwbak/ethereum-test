@@ -6,7 +6,7 @@ export class ERC20 {
     private signer?: Signer
     private readonly provider: Provider
     private contract: Contract
-    private _address: string
+    private readonly _address: string
     private _decimals?: BigNumber
     private _symbol?: string
 

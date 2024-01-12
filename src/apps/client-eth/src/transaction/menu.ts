@@ -145,8 +145,8 @@ export class TransactionMenu {
             })
         const answers = NormalizeAnswer(await inquirer.prompt(question))
         const value = utils.parseUnits(answers.amount, "ether").toString()
-        let maxFeePerGas = answers.gasPrice ? utils.parseUnits(answers.maxFeePerGas, "gwei") : undefined
-        let maxPriorityFeePerGas = answers.gasPrice ? utils.parseUnits(answers.gasPrice, "maxPriorityFeePerGas") : undefined
+        let maxFeePerGas = answers.maxFeePerGas ? utils.parseUnits(answers.maxFeePerGas, "gwei") : undefined
+        let maxPriorityFeePerGas = answers.maxPriorityFeePerGas ? utils.parseUnits(answers.maxPriorityFeePerGas, "gwei") : undefined
         const param: TransactionParam = {
             nonce: answers.nonce ? answers.nonce : undefined,
             gasLimit: answers.gasLimit ? BigNumber.from(answers.gasLimit) : undefined,

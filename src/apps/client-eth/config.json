@@ -1,12 +1,12 @@
 {
-    "providerUrl": "https://weathered-sparkling-morning.bsc.quiknode.pro/9f890eebf226414b12403852adc4c5517f98d369/",
+    "providerUrl": "https://blissful-maximum-putty.ethereum-sepolia.quiknode.pro/c8f3412af2a0441740dd4ce52130406928519a5c/",
     "wallet": {
         "walletPhrase": "rotonda"
     },
     "tokens": [
         {
-            "symbol": "USDC",
-            "address": "0x"
+            "symbol": "STK",
+            "address": "0xb45efaea9bf5bf90fdd2b239d6f529f390e5b0ea"
         }
     ]
 }
